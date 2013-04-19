@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[@when("${1:scenario}")
+def step(context):
+	${2:# some code}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>when</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
